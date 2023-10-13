@@ -68,6 +68,39 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Whatsapp button
+--------------------------------------------------------------*/
+.btn-whatsapp {
+  position: fixed;
+  opacity: 1;
+  right: 15px;
+  bottom: 70px;
+  z-index: 996;
+  background: #e57a37;
+  /* background: #1892cf; */
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.btn-whatsapp i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.btn-whatsapp:hover {
+  background: #2db5f9;
+  color: #fff;
+}
+
+.btn-whatsapp.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
