@@ -1,580 +1,651 @@
 <!DOCTYPE html>
-<html lang="en">
-    
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<html lang="en-us">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Exitus Project</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-  
-    <!-- Favicons -->
-    <link href="assets/img/exitus-project1.png" rel="icon">
-    <link href="assets/img/exitus-project1.png" rel="exitus-project-icon">
-  
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-  
-    <!-- =======================================================
-    * Template Name: Alstar
-    * Updated: Sep 18 2023 with Bootstrap v5.3.2
-    * Template URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-</head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="generator" content="Source Themes Academic 4.8.0">
+        <meta name="author" content="Reza Adhicahyasmara">
+        <meta name="description" content="Freelancer IT">
+        <link rel="alternate" hreflang="en-us" href="https://reza-adhicahyasmara.github.io/">
+        <meta name="theme-color" content="#007bff">
+        <link rel="stylesheet" href="./assets/academic/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/fancybox/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/academic/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="./assets/academic/github.min.css" crossorigin="anonymous" title="hl-dark" disabled="">
+        <link rel="stylesheet" href="./assets/academic/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./assets/academic/css">
+        <link rel="stylesheet" href="./assets/academic/academic.css">
+        <link rel="stylesheet" href="./assets/boxicons/css/boxicons.min.css">
+        <link rel="stylesheet" href="./assets/academic/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+        <link rel="alternate" href="./index.xml" type="application/rss+xml" title="Reza Adhicahyasmara">
+        <!-- <link rel="manifest" href="./index.webmanifest"> -->
+        <link rel="icon" type="image/png" href="./images/logo.png">
+        <link rel="apple-touch-icon" type="image/png" href="./images/icon_hu9c6384c471666297d310bd37a73d0cf8_49227_192x192_fill_lanczos_center_3.png">
+        <link rel="canonical" href="./">
+
+        <script src="./assets/academic/lazysizes.min.js.download" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async=""></script>
+        <script type="text/javascript" async="" src="./assets/academic/analytics.js.download"></script>
+        <script src="./assets/academic/mathjax-config.js.download"></script>
+        <script async="" src="./assets/academic/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            function trackOutboundLink(url, target) {
+                gtag('event', 'click', {
+                    'event_category': 'outbound',
+                    'event_label': url,
+                    'transport_type': 'beacon',
+                    'event_callback': function () {
+                    if (target !== '_blank') {
+                        document.location = url;
+                    }
+                    }
+                });
+                console.debug("Outbound link clicked: " + url);
+            }
+
+            function onClickCallback(event) {
+                if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+                    return;
+                }
+                trackOutboundLink(event.target, event.target.getAttribute('target'));  
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'UA-79116900-2', { 'anonymize_ip': true });
+
+        
+            document.addEventListener('click', onClickCallback, false);
+        </script>
 
 
-<header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between ">
+        <script src="./assets/academic/netlify-identity-widget.js.download"></script>
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="og:site_name" content="Reza Adhicahyasmara">
+        <meta property="og:url" content="./">
+        <meta property="og:title" content="Reza Adhicahyasmara">
+        <meta property="og:description" content="Freelancer IT"><meta property="og:image" content="./img/manparvesh-bench.jpg">
+        <meta property="twitter:image" content="./img/manparvesh-bench.jpg"><meta property="og:locale" content="en-us">
+        <meta property="og:updated_time" content="2021-10-24T15:50:19-05:00">
+        <title>Reza Adhicahyasmara</title>
+        <script src="./assets/academic/cookieconsent.min.js.download" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+        <script>
+            window.addEventListener("load", function(){
+                window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                    "background": "#007bff",
+                    "text": "#fff"
+                    },
+                    "button": {
+                    "background": "#fff",
+                    "text": "#007bff"
+                    }
+                },
+                "theme": "classic",
+                "content": {
+                    "message": "This website uses cookies to ensure you get the best experience on our website.",
+                    "dismiss": "Got it!",
+                    "link": "Learn more",
+                    "href": "https://www.cookiesandyou.com"
+                }
+                })
+            });
+        </script>
 
-        <div class="logo">
-            <a href="index.html"><img src="assets/img/exitus-project2.png" alt="" class="img-fluid" style="filter:  brightness(0) invert(1);"></a>
+        </script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+            .CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+            .CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+            .CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+        </style>
+        <style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+            .CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+            .CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+            .CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+            .CtxtMenu_MenuClose:hover:focus {  outline:none}
+        </style>
+        <style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+            .CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+            .CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+            .CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+            .CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+            .CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+            .CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+            .CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+            .CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+            .CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+            .CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+            .CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+            .CtxtMenu_MenuSlider {  left: .1em;}
+            .CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+            .CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+            .CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+            .CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+            .CtxtMenu_MenuDisabled {  color: GrayText}
+            .CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+            .CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+            .CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+            .CtxtMenu_ContextMenu:focus {  outline:none}
+            .CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+            .CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+            .CtxtMenu_SelectionItem {  padding-right: 1em;}
+            .CtxtMenu_Selection {  right: 40%; width:50%; }
+            .CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+            .CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+            .CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+        </style>
+
+        <style>
+            /*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery {
+  overflow: hidden;
+}
+
+.gallery .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.gallery .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #0064AF;
+}
+
+.gallery .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #0064AF;
+}
+
+.gallery .swiper-slide-active {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .gallery .swiper-wrapper {
+    padding: 40px 0;
+  }
+  .gallery .swiper-slide-active {
+    border: 6px solid #0064AF;
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+    transform: scale(1.2);
+    margin-top: 10px;
+  }
+}
+
+</style>
+    </head>
+    <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main">
+        <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-classic cc-bottom cc-color-override--156669790 cc-invisible" style="display: none;"><!--googleoff: all-->
+            <span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you get the best experience on our website.
+                <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.cookiesandyou.com/" rel="noopener noreferrer nofollow" target="_blank">Learn more</a>
+            </span>
+            <div class="cc-compliance">
+                <a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it!</a>
+            </div><!--googleon: all-->
         </div>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-                <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                <li><a class="nav-link scrollto" href="#services">Produk & Jasa</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portofolio</a></li>
-                <li><a class="nav-link scrollto" href="#pricing">FAQ</a></li>
-                <li><a class="nav-link scrollto" href="#team">Tim</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+        <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+            <div class="container">
+                <div class="d-none d-lg-inline-flex">
+                    <a class="navbar-brand" href="https://reza-adhicahyasmara.github.io/">Reza Adhicahyasmara</a>
+                </div>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+                    <a class="navbar-brand" href="https://reza-adhicahyasmara.github.io/">Reza Adhicahyasmara</a>
+                </div>
+                <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+                    <ul class="navbar-nav d-md-inline-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://reza-adhicahyasmara.github.io/#about" data-target="#about"><span>Beranda</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://reza-adhicahyasmara.github.io/#skills" data-target="#skills"><span>Keahlian</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://reza-adhicahyasmara.github.io/#experience" data-target="#experience"><span>Pengalaman</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://reza-adhicahyasmara.github.io/#projects" data-target="#projects"><span>Projek</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://reza-adhicahyasmara.github.io/files/reza_adhicahyasmara_cv.pdf"><span>Resume</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+                    <li class="nav-item dropdown theme-dropdown">
+                        <a href="https://reza-adhicahyasmara.github.io/#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+                            <i class="bx bx-fw bx-palette" aria-hidden="true"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="https://reza-adhicahyasmara.github.io/#" class="dropdown-item js-set-theme-light dropdown-item-active"><span>Light</span></a>
+                            <a href="https://reza-adhicahyasmara.github.io/#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+                            <a href="https://reza-adhicahyasmara.github.io/#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </div>
-</header>
 
 
-<section id="hero">
-    <div class="hero-container">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                            <img src="assets/img/exitus-project1.png" class="animate__animated animate__fadeInDown mb-5" style="max-height: 150px;"></img>
-                            <h2 class="animate__animated animate__fadeInUp">Solusi Kebutuhan Digitalisasi <br><span class="fs-2"> untuk Individu, Organisasi, dan Perusahan </span></h2>
-                            <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Selanjutnya</a>
+
+        <span class="js-widget-page d-none"></span>
+        <section id="about" class="home-section wg-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div id="profile">
+                            <img class="avatar avatar-circle" src="./images/avatar.jpg" alt="Reza Adhicahyasmara">
+                            <div class="portrait-title">
+                                <h2>Reza Adhicahyasmara</h2>
+                                <h3>Freelancer IT</h3>
+                                <!-- <h3>
+                                    <a href="https://vmware.com/" target="_blank" rel="noopener">
+                                        <span>VMware</span>
+                                    </a>
+                                </h3> -->
+                            </div>
+                            <ul class="network-icon" aria-hidden="true">
+                                <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=reza.adhicahyasmara@gmail.com"><i class="bx bx-lg bx-envelope big-icon"></i></a></li>
+                                <li><a href="https://wa.me/+628964044744"><i class="bx bx-lg bxl-whatsapp big-icon"></i></a></li>
+                                <li><a href="https://github.com/reza-adhicahyasmara" target="_blank" rel="noopener"><i class="bx bx-lg bxl-github big-icon"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/reza-adhicahyasmara-886749136/" target="_blank" rel="noopener"><i class="bx bx-lg bxl-linkedin-square big-icon"></i></a></li>
+                                <li><a href="https://reza-adhicahyasmara.github.io/files/reza_adhicahyasmara_cv.pdf"><i class="bx bx-lg bxs-file-pdf big-icon"></i></a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                            <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                            <a href="#tentang" class="btn-get-started scrollto animate__animated animate__fadeInUp">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-                    <div class="carousel-container">
-                        <div class="carousel-content">
-                            <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                            <a href="#tentang" class="btn-get-started scrollto animate__animated animate__fadeInUp">Read More</a>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-            <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bi bi-chevron-double-left" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon bi bi-chevron-double-right" aria-hidden="true"></span>
-            </a> -->
-        </div>
-    </div>
-</section>
-
-
-<main id="main">
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>Tentang</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 p-4 content">
-                    <p>
-                        Exitus Project adalah sebuah usaha yang berfokus pada produk dan layanan dalam bidang teknologi dan informasi. Seperti jasa pembuatan software, jasa pembuatan desain grafis dan pengadaan perangkat IT. Kami merupakan badan usaha yang dapat membantu bagi individu, kelompok, organisasi ataupun perusahaan yang bergerak dibidang bisnis atau komersial.
-                        <br>
-                        <br>
-                        Kami komitmen untuk mengejar kepuasan pelanggan dalam upaya mencapai visi kami untuk menjadikan layanan yang handal baik ditingkat lokal maupun multinasional sebagai solusi yang menyeluruh terutama dalam bidang IT.
-                    </p> 
-                </div>
-                <div class="col-lg-6 p-4 content">
-                    <h3>Visi</h3>
-                    <p>Menjadi perusahaan IT yang dapat diandalkan dalam menyediakan produk dan jasa yang menyeluruh untuk bisnis skala lokal maupun multinasional kepada pelanggan segmen individu kelompok organisasi maupun perusahaan di wilayah Ciayumajakuning</p>
-                </div>
-                <div class="col-lg-6 p-4 content">
-                    <h3>Misi</h3>
-                    <ul>
-                        <li><i class="bi bi-check-circle"></i> Menganalisa kebutuhan pasar berdasarkan perkembangan teknologi terkini.</li>
-                        <li><i class="bi bi-check-circle"></i> Menjalin hubungan yang baik dengan individu kelompok organisasi maupun perusahaan.</li>
-                        <li><i class="bi bi-check-circle"></i> Meningkatkan efesiensi kerja.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <section id="services" class="services section-bg">
-        <div class="container">
-            <div class="section-title">
-                <h2>Produk & Jasa</h2>
-                <p>Kami menyediakan produk dan layanan terbaik dalam menunjang kebutuhan bisnis dengan tenaga ahli yang profesional.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="icon-box">
-                        <i class="bi bi-code-slash"></i>
-                        <h4><a href="#">Software Development</a></h4>
-                        <br>
-                        <text>Kami menyediakan pelayanan jasa perancangan dan pengembangan aplikasi diantaranya:</text>
-                        <br>
-                        <ul>
-                            <li>Aplikasi Website</li>
-                            <li>Aplikasi Andorid Mobile</li>
-                            <li>Pemrograman IoT (Internet of Things)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
-                        <h4><a href="#">Security System (CCTV)</a></h4>
-                        <br>
-                        <text>Dalam memenuhi perangkat keamanan untuk tempat anda kami menyiapkan layanan, diantaranya:</text>
-                        <br>
-                        <ul>
-                            <li>Instalasi CCTV Indoor / Outdoor</li>
-                            <li>Instalasi IP Camera</li>
-                            <li>Instalasi CCTV Online</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-hdd-network"></i>
-                        <h4><a href="#">Networking</a></h4>
-                        <br>
-                        <text>Dalam menunjang komunikasi dan transafer data yang lancar kamai menyediakan layanan, diantaranya:</text>
-                        <br>
-                        <ul>
-                            <li>Instalasi Jaringan</li>
-                            <li>Instalasi PABX</li>
-                            <li>Instalasi Server</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-pc-display"></i>
-                        <h4><a href="#">IT Device</a></h4>
-                        <br>
-                        <text>Selain menyediakan pelayanan, kami menyediakan produk perangakat IT, diantaranya:</text>
-                        <br>
-                        <ul>
-                            <li>PC Komputer, Server, Laptop</li>
-                            <li>Printer, Scaner, Proyektor </li>
-                            <li>Aksesoris dan Sparepart</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-palette"></i>
-                        <h4><a href="#">Graphic Design</a></h4>
-                        <br>
-                        <text>Untuk kebutuhan desain visual yang aktraftif kami menyediakan layanan, diantaranya:</text>
-                        <br>
-                        <ul>
-                            <li>Desain Logo</li>
-                            <li>Desain Ilustrasi </li>
-                            <li>Desain Merchandise</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <i class="bi bi-tools"></i>
-                        <h4><a href="#">Service & Maintenance</a></h4>
-                        <br>
-                        <text>Selain pengadaan barang jasa, kamu juga melayanai perbaikan dan perawatan perangkat IT, diantaranya: </text>
-                        <br>
-                        <ul>
-                            <li>Instalasi Software</li>
-                            <li>Instalasi Hardware </li>
-                            <li>Perbaikan Perangat IT</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="cta" class="cta">
-        <div class="container">
-            <div class="text-center">
-                <h3>Hubungi Kami</h3>
-                <p> Jika anda mendapatkan kesulitan dan ingin mendapatkan informasi lebih lanjut, silahkan hubungi kami melalui whatsapp.</p>
-                <a class="cta-btn" href="https://wa.me/6289640447447"><i class="bi bi-whatsapp"></i> Whatsapp</a>
-            </div>
-        </div>
-    </section>
-    
-
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2>Portofolio</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-android">Android</li>
-                    <li data-filter=".filter-cctv">CCTV</li>
-                    <li data-filter=".filter-graphic-design">Graphic Design</li>
-                    <li data-filter=".filter-iot">IoT</li>
-                    <li data-filter=".filter-it-device">IT Device</li>
-                    <li data-filter=".filter-maintenance">Maintenance</li>
-                    <li data-filter=".filter-networking">Networking</li>
-                    <li data-filter=".filter-website">Website</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1026px;">
-                <!-- APLIKASI ANDROID AND WEB -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-android">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/bilik.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Bilik Komoditas</h5>
-                        <small>Aplikasi ecommerce berbasis android, melakukan penjualan produk-produk hasil pertanian tani oleh group Bilik Komoditas. Memungkinkan produsen menjual produk dengan keadaan fresh dengan cara konsumen memesan langsung dari aplikasi dan konsumen dimudahkan dengan pembayaran lengkap dengan payment gateway.</small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-android">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/pdam.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Sistem Informasi Produksi PDAM Kuningan</h5>
-                        <small>Kami bekerjasama dengan PDAM Kuningan dalam pengembangan sistem informasi produksi air bersih di diarea kabupaten Kuningan. Kami dalam hal ini kami akan terus konsisten dalam pengembangan teknologi berikutnya dengan alat bantu Arduino dalam menunjang produksi air bersih.</small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-android">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/enutri.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">E-Nutri Diabetic</h5>
-                        <small>Aplikasi Android untuk monitoring pencatatan makanan serta menampilkan informasi Gizi.</small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-android">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/simerah.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Si Merah</h5>
-                        <small>Aplikasi Android untuk Menginformasikan Tentang fakta fakta seputar menstruasi bagi remaja putri yang akan menghadapi menarche.</small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-android">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/ibusegahati.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Ibu Sehati</h5>
-                        <small>Aplikasi informasi mengenai kesehati Ibu Hamil sehat tanpa anemia menggunakan fitur pengingat Push notifikasi.</small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-android">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/ekinerja.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Sistem Evaluasi Kinerja</h5>
-                        <small>Sistem analisis kinerja karyawan, menggunakan metode Simple Multi-Attribute Rating Technique (SMART) merupakan metode pengambilan keputusan. Mengelola dan menginput data penilaian sesuai kriteria yang dibutuhkan, sehingga dapat menghasilkan informasi penilaian yang akurat untuk kebutuhan keputusan hasil kontrak kerja. </small>
-                    </div>
-                </div>
-
-
-                <!-- IT DEVICE -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-it-device">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/it-device1.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Pengandaan dan Kebutuhan Perlengkapan IT</h5>
-                        <small></small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-it-device">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/it-device2.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Pengandaan dan Kebutuhan Perlengkapan IT</h5>
-                        <small></small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-it-device">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/it-device3.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Pengandaan dan Kebutuhan Perlengkapan IT</h5>
-                        <small></small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-it-device">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/it-device4.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Pengandaan dan Kebutuhan Perlengkapan IT</h5>
-                        <small></small>
-                    </div>
-                </div>
-
-
-                <!-- MAINTENANCE -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-maintenance">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/maintenance1.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Service & Maintenance</h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-maintenance">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/maintenance2.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Service & Maintenance</h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-maintenance">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/maintenance3.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Jasa Service & Maintenance</h5>
-                    </div>
-                </div>
-
-
-                <!-- APLIKASI WEB -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-website">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/analisa_bumdes.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Sistem Analis Perkembangan BUMDes</h5>
-                        <small>Aplikasi controlling & driving system untuk memantau perkembangan lembaga kemasyarakatan Badan Usaha Milik Desa dari aspek Manajemen, Ekonomi, Sosial dan Lingkungan. Merujuk pada badan Litbang Kemendesa bahwa suatu usaha desa harus memiliki nilai index khusus untuk menetapkan apakah BUMDES tersebut layak dikembangkan atau tidak. </small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-website">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/ecommerce.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">E-Commerce (Web Mobile)</h5>
-                        <small>Aplikasi penjualan melalui internet, terintegrasi dengan kurir-kurir nasional dan pembayaran transfer bank. Mudah dalam dalam menginformasikan dan mengenalkan produk, dapat memberikan potongan harga sesuai event yang ditentukan. Manajemen pengelolaan data dan loparan mudah dan peraktis, sehingga anda dapat fokus dalam mengembangkan bisnis anda. </small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-website">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/inventory.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">E-Inventory</h5>
-                        <small>Sistem manajemen pengelolaan data stok barang untuk gudang. Data dapat terpantau yang dimasukkan ke dalam penjualan, pembelian, dan produksi dalam penerimaan inventaris. Dapat memeriksa jumlah stok terbaru secara real time tanpa manajemen inventaris dengan menggubakan Aplikasi stok barang Ecount. Mudah dalam pembuatan laporan. </small>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-website">
-                    <div class="portfolio-wrap border rounded p-3">
-                        <img src="assets/img/portfolio/jaskipin.jpg" class="img-fluid mb-3" alt="">
-                        <h5 class="text-center">Sistem Logistik</h5>
-                        <small>Sistem manajemen pengelolaan data pengiriman logistik. Terintergrasi dengan beberapa branch untuk operasional pengiriman logistik, melakukan pelaporan pembayaran biaya pengiriman. </small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <section id="pricing" class="pricing section-bg">
-        <div class="container">
-            <div class="section-title">
-                <h2>FAQ</h2>
-                <p>Daftar pertanyaan umum yang sering ditanyakan pelanggan kami.</p>
-            </div>
-            <h2>COMMING SOON</h2>
-            <!-- <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Acan Beres #1
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      Naon cing ahhh
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Acan Beres #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Acan Beres #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-        </div>
-    </section>
-    
-
-    <section id="team" class="team">
-        <div class="container">
-            <div class="section-title">
-                <h2>Tim</h2>
-                <p>Tim yang solid adalah sebuah narasi bagi kami yang terus dan senantiasa kami pupuk dalam diri untuk menjadikan kami pribadi yang jujur dan profesional dalam mengerjakan setiap projek yang kami emban. Dengan kondisi tim kami yang muda siap berkarya untuk berinovasi membangun negeri menjadi lebih baik dan berlaku manfaat bagi setiap individu maupun organisasi yang siap bersama untuk lebih maju.</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/aldi.png" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href="http://facebook.com/aldi.nurfarizha"><i class="bi bi-facebook"></i></a>
-                                <a href="http://instagram.com/aldi.nurfarizha"><i class="bi bi-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/aldi-nurfarizha-344064116/"><i class="bi bi-linkedin"></i></a>
-                                <a href="https://aldinurfarizha.github.io/"><i class="bi bi-github"></i></a>
+                    <div class="col-12 col-lg-8">
+                        <h1>Biografi</h1>
+                        <p>Awal mula berkarir, 2013 merantau ke Jakarta bekerja sebagai teller di salah satu bank swasta. Setelah 3 tahun selsai masa kontrak kerja, kembali ke Kuningan dan bekerja di salah satu perusahaan distributor rokok sebagai admin sales sekaligus kuliah kelas malam.</p>
+                        <p>Di tahun 2020 pada saat pandemi Covid 19 melanda di Indonesia, terjadi PHK besar-besaran dan saya terkena dampak pendemi tersebut. Banyak waktu senggang saya pergunakan untuk belajar pemograman web, memperlajari tentang Teknologi Informasi, dan membereskan tugas akhir kuliah (skripsi).</p>
+                        <p>Saat pandemi saya berfikir untuk terus produktif, sehingga saya dan teman membernaikan diri untuk mendekati dan menawaran layanan dan jasa. Melakukan beberapa projek kecil diperusahaan, instatsi pemerintah atau organisasi. Dari sana, saya memiliki banyak pengalaman dan ilmu untuk mengembangkan lebih diri saya.</p>
+                        <p>Kini saya tertarik dalam IT suport dan pemrograman Web.</p>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h3>Minat</h3>
+                                <ul class="ul-interests">
+                                    <li>IT Suport</li>
+                                    <li>Jaringan Komputer</li>
+                                    <li>Web Programming</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-7">
+                                <h3>Pendidikan</h3>
+                                <ul class="ul-edu fa-ul">
+                                    <li>
+                                        <div class="row">
+                                            
+                                            <i class="bx bx-fw bxs-graduation pt-2"></i>
+                                            <div class="description">
+                                                <p class="course">Sistem Informasi, 2016-2020</p>
+                                                <p class="institution">Universitas Kuningan, Indonesia</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="member-info">
-                            <h4>Aldi Nurfarizha</h4>
-                            <span>Mobile & Web Dev, IT Support</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/isef.png" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href="http://facebook.com/isefnoprizalarief"><i class="bi bi-facebook"></i></a>
-                                <a href="http://instagram.com/exitus.prjct"><i class="bi bi-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Isef Noprizal Arief</h4>
-                            <span>Graphic Design</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/reza.png" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href="http://facebook.com/reza.adhicahyasmara"><i class="bi bi-facebook"></i></a>
-                                <a href="http://instagram.com/reza.adhicahyasmara"><i class="bi bi-instagram"></i></a>
-                                <a href="https://linkedin.com/in/reza-adhicahyasmara-886749136/"><i class="bi bi-linkedin"></i></a>
-                                <a href="https://reza-adhicahyasmara.github.io/"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Reza Adhicahyasmara</h4>
-                            <span>Web Dev, IT Support</span>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
-  
+        </section>
 
-<footer id="footer">
-    <div id="contact" class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-links">
-                        <img src="assets/img/exitus-project1.png" style="max-height: 80px;"/>
-                        <img src="assets/img/exitus-project3.png" style="max-height: 80px; filter:  brightness(0) invert(1);"/>
-                        <p class="pb-3"><em></em></p>
-                        <p><b>Exitus Project</b> berkomitmen untuk memberikan dukungan maksimal solusi masalah Anda. Suatu kehormatan bagi kami untuk selalu menyediakan produk dan layanan IT komprehensif dan inovatif</p>
+
+
+        <section id="skills" class="home-section wg-featurette">
+            <div class="container">
+                <div class="row featurette">
+                    <div class="col-md-12 section-heading mb-5"><h1>Keahlian</h1></div>
+                    <div class="col-12 col-sm-4">
+                        <div class="featurette-icon"><i class="bx bx-fw bx-desktop"></i></div>
+                        <h3>Web Programming</h3>
+                        <p>PHP, HTML, Javascript, CSS<br>Codeigniter, Bootstrap</p>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Sitemap</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Layanan</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Layanan Kami</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Kontak</h4>
-                    <ul>
-                        <li><span class="bi bi-pin"></span> No.4, Jl. Ramajaksa No.04/02, Purwawinangun, Kec./Kab. Kuningan, Jawa Barat 45512</li>
-                        <li><span class="bi bi-phone"></span> +62 896-4044-7447</li>
-                        <li><span class="bi bi-envelope"></span> exituproject97@gmail.com</li>
-                    </ul>
-                    <div class="social-links mt-3">
-                        <a href="http://facebook.com/exitus.art" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="https://instagram.com/exitusproject/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="https://twitter.com/exitusproject" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="https://tiktok.com/@exitusproject" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+                    <div class="col-12 col-sm-4">
+                        <div class="featurette-icon"><i class="bx bx-fw bxs-data"></i></div>
+                        <h3>Databases</h3>
+                        <p>MySQl, PostgreSQL</p>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="featurette-icon"><i class="bx bx-fw bx-network-chart"></i></div>
+                        <h3>Jaringan Komputer</h3>
+                        <p>Mikrotik</p>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="featurette-icon"><i class="bx bx-fw bxl-microsoft"></i></div>
+                        <h3>Microsoft Office</h3>
+                        <p>Word, Excel, Power Point, Visio</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+
+
+
+        <section id="experience" class="home-section wg-experience   ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 section-heading">
+                        <h1>Pengalaman</h1>
+                    </div>
+                    <div class="col-12 col-lg-8">
+
+                        <div class="row experience">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col ">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <div class="m-2">
+                                    <span class="badge badge-pill border exp-fill">&nbsp;</span>
+                                </div>
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title exp-title text-muted mt-0 mb-1">Freelancer IT</h4>
+                                        <h4 class="card-title exp-company text-muted my-0"><a href="#" target="_blank" rel="noopener">Exitus Project</a></h4>
+                                        <div class="text-muted exp-meta">
+                                            September 2020 – Sekarang
+                                            <span class="middot-divider"></span>
+                                            <span>Kabupaten Kuningan</span>
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li>
+                                                    <p><strong>Jaringan Komputer</strong></p>
+                                                    <ul>
+                                                        <li>Mempersiapkan, mendokumentasi, konfigurasi dan tata letak pemesangan jaringan.</li>
+                                                        <li>Memberikan pengawasan teknis, termasuk perencanaan, implementasi, pemecahan masalah, dan pemeliharaan.</li>
+                                                        <li>Merancangan dan mengelola insfrastruktur dan sistem pendukung.</li>
+                                                        <li>Merekomendasikan peningkatan jaringan dan peralatan baru.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <p><strong>IT Suport</strong></p>
+                                                    <ul>
+                                                        <li>Konfigurasi perangkat keras dan sistem operasi untuk menunjang sistem komputer perusahaan.</li>
+                                                        <li>Memberikan pengawasan teknis, termasuk perencanaan, implementasi, pemecahan masalah, dan pemeliharaan perangkat keras dan sistem operasi.</li>
+                                                        <li>Merekomendasikan peningkatan peralatan dan menawarkan produk.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Programming</strong></p>
+                                                    <ul>
+                                                        <li>Menganalisa permasalahan dan kebutuhan perusahaan.</li>
+                                                        <li>Mempersiapkan, mendokumentasi, merancangan program yang akan dibuat .</li>
+                                                        <li>Membuat aplikasi web.</li>
+                                                        <li>Implementasi, testing, dan mengedukasi kepada perusahaan.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row experience">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <div class="m-2">
+                                    <span class="badge badge-pill border ">&nbsp;</span>
+                                </div>
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title exp-title text-muted mt-0 mb-1">Admin Sales</h4>
+                                        <h4 class="card-title exp-company text-muted my-0"><a href="#" target="_blank" rel="noopener">PT. Cipta Wahana Sentosa</a></h4>
+                                        <div class="text-muted exp-meta">
+                                            Juni 2017 – Februari 2022
+                                            <span class="middot-divider"></span>
+                                            <span>Kabupaten Kuningan</span>
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li>
+                                                    <p><strong>Pengelolaan Data Administrasi</strong></p>
+                                                    <ul>
+                                                        <li>Mengelola data karyawan, mengelola data absen dan melaporkan setiap bulan.</li>
+                                                        <li>Menyediakan kebutuhan perlengkapan kerja, seperti seragam, ID card, tas/saddlebag, dan lain-lain.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Pengelolaan Data Penjualan dan Gudang</strong></p>
+                                                    <ul>
+                                                        <li>Input data transaksi sales dan laporan sales.</li>
+                                                        <li>Menerima uang setoran dan berkas sales.</li>
+                                                        <li>Menyiapkan data stok barang kebutuhan sales.</li>
+                                                        <li>Merekap penjualan stok setiap hari, minggu dan bulan.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Evaluasi & Monitoring</strong></p>
+                                                    <ul>
+                                                        <li>Melakukan prekrutan calon pekerja baru.</li>
+                                                        <li>Membuat laporan evaluasi kinerja setiap bulan.</li>
+                                                        <li>Mengawasi dan memantau kerja sales di lapangan.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row experience">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <div class="m-2">
+                                    <span class="badge badge-pill border ">&nbsp;</span>
+                                </div>
+                                <div class="row h-50">
+                                    <div class="col ">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title exp-title text-muted mt-0 mb-1">Teller</h4>
+                                        <h4 class="card-title exp-company text-muted my-0"><a href="https://www.bca.com/" target="_blank" rel="noopener">PT. Bank Centaral Asia</a></h4>
+                                        <div class="text-muted exp-meta">
+                                            Februari 2013 – Februari 2016
+                                            <span class="middot-divider"></span>
+                                            <span>Jakarta Indonesia</span>
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li>
+                                                    <p><strong>Teller Pooling</strong></p>
+                                                    <ul>
+                                                        <li>Ditugaskan beberapa cabang sekitar domisi, meliputi area Jakarta Timur, Jakarta Selatan, Jakarta Pusat, Bekasi.</li>
+                                                        <li>Ditugaskan sesuai jadwal dan membackup cabang yang tidak masuk karena sakit, ijin ataupun cuti.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Pelayanan</strong></p>
+                                                    <ul>
+                                                        <li>Memberikan informasi mengenai produk perbankan.</li>
+                                                        <li>Memberikan solusi perbankan untuk mengatasi masalah nasabah.</li>
+                                                        <li>Memperkenalkan dan menawarkan produk perbankan.</li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Pelayanan Transaksi</strong></p>
+                                                    <ul>
+                                                        <li>Transaksi tunai, meliputi setoran tarikan valas.</li>
+                                                        <li>Transaksi non tunai, meliputi transfer pindah buku giro / cek, RTGS, dan lain-lain.</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="projects" class="home-section wg-portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 section-heading mb-5"><h1>Projek Terkini</h1></div>
+                    <div class="col-12">
+                        <div class="gallery-slider swiper-container">
+                            <div class="swiper-wrapper align-items-center">
+                                <div class="swiper-slide card text-center p-2">
+                                    <img src="./images/galeri1.jpg" class="img-fluid" alt="">
+                                    <h5>Sitem Evaluasi Kinerja</h5>
+                                    <small class="text-justify">Sistem analisis kinerja karyawan, menggunakan metode Simple Multi-Attribute Rating Technique (SMART) merupakan metode pengambilan keputusan. Mengelola dan menginput data penilaian sesuai kriteria yang dibutuhkan, sehingga dapat menghasilkan informasi penilaian yang akurat untuk kebutuhan keputusan hasil kontrak kerja.</small>
+                                </div>
+                                <div class="swiper-slide card text-center p-2">
+                                    <img src="./images/galeri2.jpg" class="img-fluid" alt="">
+                                    <h5>E-Inventory</h5>
+                                    <small class="text-justify">Sistem manajemen pengelolaan data stok barang untuk gudang. Data dapat terpantau yang dimasukkan ke dalam penjualan, pembelian, dan produksi dalam penerimaan inventaris. Dapat memeriksa jumlah stok terbaru secara real time tanpa manajemen inventaris dengan menggubakan Aplikasi stok barang Ecount. Mudah dalam pembuatan laporan</small>
+                                </div>
+                                <div class="swiper-slide card text-center p-2">
+                                    <img src="./images/galeri3.jpg" class="img-fluid" alt="">
+                                    <h5>E-Commerce (Web Mobile)</h5>
+                                    <small class="text-justify">Aplikasi penjualan melalui internet, terintegrasi dengan kurir-kurir nasional dan pembayaran transfer bank. Mudah dalam dalam menginformasikan dan mengenalkan produk, dapat memberikan potongan harga sesuai event yang ditentukan. Manajemen pengelolaan data dan loparan mudah dan peraktis, sehingga anda dapat fokus dalam mengembangkan bisnis anda.</small>
+                                </div>
+                                <div class="swiper-slide card text-center p-2">
+                                    <img src="./images/galeri4.jpg" class="img-fluid" alt="">
+                                    <h5>Sistem Analis Perkembangan BUMDes (Badan Usaha Milik Desa)</h5>
+                                    <small class="text-justify">Aplikasi controlling & driving system untuk memantau perkembangan lembaga kemasyarakatan Badan Usaha Milik Desa dari aspek Manajemen, Ekonomi, Sosial dan Lingkungan. Merujuk pada badan Litbang Kemendesa bahwa suatu usaha desa harus memiliki nilai index khusus untuk menetapkan apakah BUMDES tersebut layak dikembangkan atau tidak. </small>
+                                </div>
+                                <div class="swiper-slide card text-center p-2">
+                                    <img src="./images/galeri5.jpeg" class="img-fluid" alt="">
+                                    <h5>Projek 5</h5>
+                                    <caption>Segera diupdate</caption>
+                                </div>
+                                <div class="swiper-slide card text-center p-2">
+                                    <img src="./images/galeri6.jpeg" class="img-fluid" alt="">
+                                    <h5>Projek 6</h5>
+                                    <caption>Segera diupdate</caption>
+                                </div>
+                               
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/academic/jquery.min.js.download" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/imagesloaded.pkgd.min.js.download" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/isotope.pkgd.min.js.download" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+    <script src="./assets/fancybox/jquery.fancybox.min.js.download" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/mermaid.min.js.download" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+    <script src="./assets/academic/highlight.min.js.download" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/r.min.js.download"></script>
+    <script src="./assets/academic/python.min.js.download"></script>
+    <script src="./assets/academic/java.min.js.download"></script>
+    <script src="./assets/academic/leaflet.js.download" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/fuse.min.js.download" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/jquery.mark.min.js.download" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="./assets/academic/academic.min.4aaf2d64e50f8e54cf66dcc54147a22e.js.download"></script>
+    <script>const code_highlighting = true;</script>
+    <script>const isSiteThemeDark = false;</script>
+    <script>
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+    <script>
+         new Swiper('.gallery-slider', {
+            speed: 2000,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 'auto',
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+  </script>
+
     <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Exitus Project</span></strong>. All Rights Reserved
-        </div>
+        <footer class="site-footer">
+            <span class="float-right d-flex" aria-hidden="true">
+                <a href="https://reza-adhicahyasmara.github.io/#" class="back-to-top">
+                    <span class="button_icon d-flex"><i class="bx bx-chevron-up" style="font-size: 2.2rem;"></i></span>
+                </a>
+            </span>
+            <Powered class="powered-by">© Reza Adhicahyasmara | Powered by the 
+                <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for 
+                <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+            </p>
+        </footer>
     </div>
-</footer>
-
-<a href="https://wa.me/6289640447447" class="btn-whatsapp d-flex align-items-center justify-content-center" target="_blank"><i class="bi bi-whatsapp"></i></a>
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
-
-</body>
-
 </html>
